@@ -51,6 +51,9 @@ class Cart extends React.Component{
                                     </table>
                                 </form>
                             </div>
+                            <div className="button-action">
+                                    <Link to="/" className="cartContinue">Tiếp tục mua sắm</Link>
+                                </div>
                         </div>
                         <div className="col-md-4 col-sm-12 col-xs-12 listInfo">
                             <div className="calculate-area">

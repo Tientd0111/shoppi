@@ -3,6 +3,9 @@
     max-width: 100%;
     margin-bottom: 20px;
 }
+.table-cart-area{
+    overflow-x:auto;
+}
 .table.table-cart{
     border-color: #eee;
     border-bottom: 1px solid #eee;
@@ -60,9 +63,6 @@
     font-size: 16px;
     padding: 10px 25px;
 }
-.calculate-area .total-cart .subtotal span{
-
-}
 .calculate-area .total-cart .subtotal b {
     float: right;
 }
@@ -89,4 +89,29 @@
     text-transform: uppercase;
     font-weight: 300;
     color: #fff;
+}
+// nút
+.button-action {
+    padding: 20px 0;
+}
+.button-action .cartContinue{
+    float: left;
+    display: inline-block;
+    border: 0;
+    background: #000000;
+    height: 50px;
+    padding: 0 40px;
+    border-radius: 50px;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 50px;
+    transition: all .3s;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+@media only screen and(max-width:768px) {
+    .button-action .cartContinue{
+        margin-bottom: 10px;
+    }
 }
