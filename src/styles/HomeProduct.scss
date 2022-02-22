@@ -1,0 +1,135 @@
+// product
+.portfolio .portfolio-item { 
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  // .portfolio .portfolio-item .portfolio-item-caption {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // transition: all 0.2s ease-in-out;
+    // opacity: 0; 
+    // background-color: rgba(26, 188, 156, 0.9);
+  // }
+  .zoom_img{
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: auto;
+  margin: auto;
+  }
+  .zoom_img:hover {
+    transform: scale(1.5);
+  }
+  .portfolio .portfolio-item .portfolio-item-caption:hover {
+    transition-delay: 1s;
+    opacity: 1;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-modal .btn-close {
+    color: #1abc9c;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 992px) {
+    .portfolio-modal .portfolio-modal-title {
+      font-size: 3rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  .product-name a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  }
+  .product-name a:hover{
+      text-decoration: underline 0.5px black;
+  }
+  .onhot-fix{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    list-style: none;
+    z-index: 9;
+  }
+  .onhot-fix li{
+    background: #000;
+    padding: 0 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+  }
+  
+  .new-2{
+    margin-top: 40px;
+  }
+
+  .onsale-fix{
+    position: relative;
+    top: -36px;
+    right: 60px;
+    color: #fff;
+    list-style: none;
+    z-index: 9;
+  }
+  .onsale-fix li{
+    background: #000;
+    padding: 0 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: right;
+  }
+  .ml5 {
+    margin-left: 5px;
+}
+.price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+  padding-right: 5px;
+}
+.view-all-product{
+  text-align: center;
+  margin-top: 50px;
+}
+.btnx {
+  border-radius: 0;
+  border: 2px solid #000000;
+  color: #000000;
+  display: inline-block;
+  margin: 0 0.25em;
+  overflow: hidden;
+  padding: 10px 16px 10px 16px;
+  position: relative;
+  text-decoration: none;
+  line-height: 1;
+}
+.btnx:hover{
+  transition: calc(1s);
+  background-color:#999;
+  color: #fff;
+}
+
+
+.btnx .btn-content {
+  font-size: 1em;
+  line-height: 1.2;
+  padding: 0 26px;
+  position: relative;
+  right: 0;
+  transition: right 300ms ease;
+  display: block;
+  text-align: left;
+}

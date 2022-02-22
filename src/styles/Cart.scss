@@ -1,0 +1,92 @@
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.table.table-cart{
+    border-color: #eee;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee
+}
+.table.table-cart tr {
+    border-color: #eee;
+}
+.table.table-cart td {
+    font-size: 16px;
+    color: #1c1c1c;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0;
+    border-color: #eee;
+}
+.table.table-cart th{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+    border-color: #eee;
+    padding: 10px 0;
+}
+.img-cart {
+    width: 150px;
+    margin-right: 15px;
+    float: left;
+}
+.cartItem{
+    text-align: center;
+}
+.trash-icon{
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+}
+// Thanh toán
+.calculate-area {
+    width: 100%;
+    margin-bottom: 0px;
+}
+.calculate-area .ct-ft-cart {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.calculate-area .total-cart {
+    border: 1px solid #eee;
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+.calculate-area .total-cart .subtotal {
+    width: 100%;
+    color: #787878;
+    font-size: 16px;
+    padding: 10px 25px;
+}
+.calculate-area .total-cart .subtotal span{
+
+}
+.calculate-area .total-cart .subtotal b {
+    float: right;
+}
+.calculate-area .total-cart .final-total {
+    background: #fafafa;
+    color: #333;
+    font-size: 16px;
+    padding: 25px;
+    border-top: 1px solid #eee;
+}
+.calculate-area .ct-ft-cart .update-cart {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-color: #000000;
+    background: #000000;
+    height: 45px;
+    padding: 0 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 45px;
+    transition: all .3s;
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+}
