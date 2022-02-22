@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/footer.scss';
-
+import { Link } from 'react-router-dom';
 class Footer extends Component {
     render() {
         return (
@@ -13,25 +13,25 @@ class Footer extends Component {
                             <p>DirtyCoins xuất hiện trên thị trường từ đầu năm 2017, DirtyCoins mang sức mạnh của một thương hiệu local brand đầy cá tính với những sản phẩm thời trang hàng đầu xu thế. DirtyCoins thực chất là một cách lồng ghép khéo léo về sự ra đời của thương hiệu. Chữ Y trên đồng tiền tượng trưng cho tiền thân của DirtyCoins, The Yars Shop. Bắt nguồn từ Yars, DirtyCoins trân trọng giá trị của đồng tiền xương máu, thành quả lao động đầy mồ hôi, bụi bẩn và nước mắt</p>
                             <ul className="social-icon">
                                 <li>
-                                    <a href="https://www.facebook.com/HQLTECH">
+                                    <Link to="https://www.facebook.com/HQLTECH">
                                     <i class="fab fa-facebook"/>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <Link to="/">
                                     <i class="fab fa-twitter"></i>
 
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <Link to="/">
                                         <i className="fab fa-instagram" />
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <Link to="/">
                                         <i className="fab fa-youtube" />
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -41,19 +41,19 @@ class Footer extends Component {
                             <h2>Đường Dẫn</h2>
                             <ul>
                                 <li>
-                                    <a href="#">Trang Chủ</a>
+                                    <Link to="/">Trang Chủ</Link>
                                 </li>
                                 <li>
-                                    <a href="#">Về Chúng Tôi</a>
+                                    <Link to="/">Về Chúng Tôi</Link>
                                 </li>
                                 <li>
-                                    <a href="#">Thông Tin Liên Lạc</a>
+                                    <Link to="/">Thông Tin Liên Lạc</Link>
                                 </li>
                                 <li>
-                                    <a href="#">Dịch Vụ</a>
+                                    <Link to="/">Dịch Vụ</Link>
                                 </li>
                                 <li>
-                                    <a href="#">Điều Kiện Chính Sách</a>
+                                    <Link to="/">Điều Kiện Chính Sách</Link>
                                 </li>
                             </ul>
                         </div>
@@ -77,9 +77,9 @@ class Footer extends Component {
                                         <i className="fa fa-phone" />
                                     </span>
                                     <p>
-                                        <a href="#">+84 123 456 789</a>
+                                        <Link to="/">+84 123 456 789</Link>
                                         <br />
-                                        <a href="#">+84 987 654 321</a>
+                                        <Link to="/">+84 987 654 321</Link>
                                     </p>
                                 </li>
                                 <li>
@@ -87,7 +87,7 @@ class Footer extends Component {
                                         <i className="fa fa-envelope" />
                                     </span>
                                     <p>
-                                        <a href="#">tientd0111@gmail.com</a>
+                                        <Link to="/">tientd0111@gmail.com</Link>
                                     </p>
                                 </li>
                                 

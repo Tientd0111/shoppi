@@ -14,7 +14,7 @@ class Banner extends Component {
                     {/* The slideshow */}
                     <div className="carousel-inner imag">
                         <div className="carousel-item active">
-                            <img className="imgBanner" src="assets/img/banner/slide-img2.jpg" />
+                            <img className="imgBanner" src="assets/img/banner/slide-img2.jpg" alt="..."/>
                         </div>
                         <div className="carousel-item">
                             <img className="imgBanner" src="assets/img/banner/slide-img4.jpg" alt="Chicago" width={1100} height={500} />
