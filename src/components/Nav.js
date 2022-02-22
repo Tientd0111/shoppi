@@ -9,7 +9,7 @@ class Nav extends Component {
             <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
                 <div className="container">
                     <a className="navbar-brand js-scroll-trigger" href="#page-top">
-                        <img src={logo} className="logo" />
+                        <img src={logo} className="logo" alt="..."/>
                     </a>
                     <button
                         className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -86,7 +86,7 @@ class Nav extends Component {
                         </div>
                         <div className='cart'>
                             <Link to="/cart" className='cart-head'>
-                                <img src='assets/img/logo/cart-icon.png' />
+                                <img src='assets/img/logo/cart-icon.png' alt='...'/>
                                 <span className='hd-cart-count'>0</span>
                             </Link>
                         </div>

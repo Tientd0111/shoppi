@@ -28,7 +28,7 @@ class NewProduct extends React.Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/1-acb91954-321a-427a-acce-4127c483bd6f.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ class NewProduct extends React.Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/1-89654ea2-5723-4cbc-95db-bfc6b30f81c9.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ class NewProduct extends React.Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/1-5-28a0881b-ee66-4c8c-ac4c-b775d597ff5f.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ class NewProduct extends React.Component {
                                     <li>New</li>
                                 </ul>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ class NewProduct extends React.Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/1-5.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ class NewProduct extends React.Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/1.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ class NewProduct extends React.Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/2.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ class NewProduct extends React.Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/3.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
@@ -158,7 +158,7 @@ class NewProduct extends React.Component {
                                     <li>New</li>
                                 </ul>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
@@ -173,7 +173,7 @@ class NewProduct extends React.Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/5.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>

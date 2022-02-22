@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/HomeProduct.scss';
+import { Link } from 'react-router-dom';
 class ProductHot extends Component {
     render() {
         return (
@@ -30,7 +31,7 @@ class ProductHot extends Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/1-acb91954-321a-427a-acce-4127c483bd6f.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to='/'><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span className="regular-price">450.000₫</span>
                                 <span className='price ml5'>500.000đ</span>
                             </div>
@@ -49,7 +50,7 @@ class ProductHot extends Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/1-89654ea2-5723-4cbc-95db-bfc6b30f81c9.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                                 <span className='price ml5'>500.000đ</span>
                             </div>
@@ -68,7 +69,7 @@ class ProductHot extends Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/1-5-28a0881b-ee66-4c8c-ac4c-b775d597ff5f.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                                 <span className='price ml5'>500.000đ</span>
                             </div>
@@ -87,7 +88,7 @@ class ProductHot extends Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/cardigan-pink-trcv.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                                 <span className='price ml5'>500.000đ</span>
                             </div>
@@ -106,7 +107,7 @@ class ProductHot extends Component {
                                 <img className="img-fluid zoom_img" src="assets/img/product/1-5.jpg" alt="" />
                             </div>
                             <div className='product-name'>
-                                <a href=''><p>Dico Checkerboard Knit Cardigan - Grey</p></a>
+                                <Link to="/"><p>Dico Checkerboard Knit Cardigan - Grey</p></Link>
                                 <span class="regular-price">450.000₫</span>
                                 <span className='price ml5'>500.000đ</span>
                             </div>
