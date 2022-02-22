@@ -13,20 +13,20 @@ class Trademark extends React.Component {
                     <div id="recipeCarousel" className="carousel" data-ride="carousel">
                         <div className="carousel-inner" role="listbox">
                             <div className="carousel-item  no-gutters active">
-                                <div className="row">
-                                    <div className="col-3"><img className="img-fluid logo-brand" src="assets/img/logo/brand1.png" alt="..."/></div>
-                                    <div className="col-3"><img className="img-fluid logo-brand" src="assets/img/logo/brand3.png" alt="..."/></div>
-                                    <div className="col-3"><img className="img-fluid logo-brand" src="assets/img/logo/brand4.png" alt="..."/></div>
-                                    <div className="col-3"><img className="img-fluid logo-brand" src="assets/img/logo/brand5.png" alt="..."/></div>
+                                <div className="row box">
+                                    <div className="col-md-3 col-sm-6 col-xs-12"><img className="img-fluid logo-brand" src="assets/img/logo/brand1.png" alt="..."/></div>
+                                    <div className="col-md-3 col-sm-6 col-xs-12"><img className="img-fluid logo-brand" src="assets/img/logo/brand3.png" alt="..."/></div>
+                                    <div className="hiden col-md-3 col-sm-6 col-xs-12 "><img className="img-fluid logo-brand logo-hid" src="assets/img/logo/brand4.png" alt="..."/></div>
+                                    <div className="hiden col-md-3 col-sm-6 col-xs-12 "><img className="img-fluid logo-brand logo-hid" src="assets/img/logo/brand5.png" alt="..."/></div>
                                 </div>
                             </div>
                             <div className="carousel-item no-gutters">
-                                <div className="row">
-                                    <div className="col-3"><img className="img-fluid logo-brand" src="assets/img/logo/brand4.png" alt="..."/></div>
-                                    <div className="col-3"><img className="img-fluid logo-brand" src="assets/img/logo/brand3.png" alt="..."/></div>
+                                <div className="row box">
+                                    <div className="col-md-3 col-sm-6 col-xs-12"><img className="img-fluid logo-brand" src="assets/img/logo/brand4.png" alt="..."/></div>
+                                    <div className="col-md-3 col-sm-6 col-xs-12"><img className="img-fluid logo-brand" src="assets/img/logo/brand3.png" alt="..."/></div>
 
-                                    <div className="col-3"><img className="img-fluid logo-brand" src="assets/img/logo/brand1.png" alt="..."/></div>
-                                    <div className="col-3"><img className="img-fluid" src="assets/img/logo/brand5.png" alt="..."/></div>
+                                    <div className="hiden col-md-3 col-sm-6 col-xs-12 "><img className="img-fluid logo-brand logo-hid" src="assets/img/logo/brand1.png" alt="..."/></div>
+                                    <div className="hiden col-md-3 col-sm-6 col-xs-12 "><img className="img-fluid logo-brand logo-hid" src="assets/img/logo/brand5.png" alt="..."/></div>
                                 </div>
                             </div>
                         </div>

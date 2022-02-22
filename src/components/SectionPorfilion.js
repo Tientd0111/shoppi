@@ -93,7 +93,7 @@ class ProductHot extends Component {
                                 <span className='price ml5'>500.000đ</span>
                             </div>
                         </div>
-                        <div className='col-md-2 col-sm-6 col-xs-6'>
+                        <div className='col-md-2 col-sm-6 col-xs-6 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
