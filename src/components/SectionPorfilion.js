@@ -17,7 +17,7 @@ class ProductHot extends Component {
                     {/* Hiển thị sản phẩm hot*/}
                     <div className="row">
                         <div className='col-md-1'></div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -38,7 +38,7 @@ class ProductHot extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -57,7 +57,7 @@ class ProductHot extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -76,7 +76,7 @@ class ProductHot extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>

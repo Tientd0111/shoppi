@@ -17,7 +17,7 @@ class NewProduct extends React.Component {
                     {/* Portfolio Grid Items*/}
                     <div className="row">
                         <div className='col-md-1'></div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -33,7 +33,7 @@ class NewProduct extends React.Component {
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -49,7 +49,7 @@ class NewProduct extends React.Component {
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -65,7 +65,7 @@ class NewProduct extends React.Component {
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -85,7 +85,7 @@ class NewProduct extends React.Component {
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -105,7 +105,7 @@ class NewProduct extends React.Component {
                     </div>
                     <div className="row new-2">
                         <div className='col-md-1'></div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -121,7 +121,7 @@ class NewProduct extends React.Component {
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -137,7 +137,7 @@ class NewProduct extends React.Component {
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -153,7 +153,7 @@ class NewProduct extends React.Component {
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>
@@ -173,7 +173,7 @@ class NewProduct extends React.Component {
                                 <span class="regular-price">450.000₫</span>
                             </div>
                         </div>
-                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12'>
+                        <div className='col-lg-2 col col-md-12 col-sm-3 col-xs-12 item'>
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i class="fas fa-cart-plus"></i></div>

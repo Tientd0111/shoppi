@@ -5,7 +5,7 @@ class SectionContact extends Component {
         <section className="page-section" id="contact">
             <div className="container">
                 {/* Tiêu đề*/}
-                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Liên hệ</h2>
                 {/* Icon Divider*/}
                 <div className="divider-custom">
                     <div className="divider-custom-line" />
