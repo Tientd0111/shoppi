@@ -1,6 +1,5 @@
 import React from "react";
-import "../styles/Checkout.scss";
-import { Link } from "react-router-dom";
+import "../styles/Checkout.scss"
 class Checkout extends React.Component {
  
 }
