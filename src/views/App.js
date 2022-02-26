@@ -9,6 +9,7 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
+import Checkout from '../components/Checkout';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,8 @@ function App() {
           <Route path="/" element={<Home/>} exact></Route>
           <Route path="/contact" element={<SectionContact/>}></Route>
           <Route path="/cart" element={<Cart/>}></Route>
+          <Route path='/checkout' element={<Checkout/>}></Route>
+
         </Routes>
         <Footer />
       </div>

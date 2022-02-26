@@ -63,7 +63,7 @@ class Cart extends React.Component{
                                             <span>Tổng tiền <b>400.000đ</b></span>
                                         </div>
                                         <div className="final-total text-center">
-                                            <Link to="/" className="update-cart">Thanh toán</Link>
+                                            <Link to="/checkout" className="update-cart">Thanh toán</Link>
                                         </div>
                                     </div>
                                 </div>
