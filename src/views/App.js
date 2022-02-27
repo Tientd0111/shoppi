@@ -10,6 +10,7 @@ import {
   Route
 } from 'react-router-dom';
 import Checkout from '../components/Checkout';
+import Account from '../components/Account';
 function App() {
   return (
     <BrowserRouter>
@@ -20,7 +21,7 @@ function App() {
           <Route path="/contact" element={<SectionContact/>}></Route>
           <Route path="/cart" element={<Cart/>}></Route>
           <Route path='/checkout' element={<Checkout/>}></Route>
-
+          <Route path='/account' element={<Account/>}></Route>
         </Routes>
         <Footer />
       </div>

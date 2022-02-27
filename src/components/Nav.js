@@ -80,7 +80,7 @@ class Nav extends Component {
                             </ul>
                         </div>
                         <div className='cart'>
-                            <Link to="/user" className='cart-head'>
+                            <Link to="/account" className='cart-head'>
                                 <i className='fa fa-user user' />
                             </Link>
                         </div>
